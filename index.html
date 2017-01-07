@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>plane_fly</title>
+	<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=0">
+	<link rel="stylesheet" href="css/plane.css">
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/plane.js"></script>
+</head>
+<body>
+<div class="con_wrap con_show">
+<!-- <h4><i>plane</i></h4> -->
+	<div class="plane_wrap">
+		<div class="plane">
+			<div class="plane_body"></div>
+			<div class="smoke smoke1"></div>
+			<div class="smoke smoke2"></div>
+		</div>
+		
+	</div>
+	<div class="road_wrap">
+		<div class="line line01"><i class="button_i"></i><a class="place" href="javascript:void(0)" rel="1" onclick="fly_select(this);" title="北京"></a></div>
+		<div class="line line02"><i class="button_i"></i><a class="place" href="javascript:void(0)" rel="2" onclick="fly_select(this);" title="爱尔兰"></a></div>
+
+		<div class="line line03"><i class="button_i"></i><a class="place" href="javascript:void(0)" rel="3" onclick="fly_select(this);" title="加拿大"></a></div>
+		<div class="line line04"><i class="button_i"></i><a class="place" href="javascript:void(0)" rel="4" onclick="fly_select(this);" title="北海道"></a></div>
+		<div class="line line05"><i class="button_i"></i><a class="place" href="javascript:void(0)" rel="0"  onclick="fly_select(this);" title="芬兰"></a></div>
+	</div>
+	<div class="sky_wrap">
+		<div class="sky"><i></i></div>
+		<div class="tree"><i></i></div>
+	</div>
+		<div class="a_btn"><input type="button" class="button_g" name="" onclick="a_animationEnd()" value="stop\continue"></div>
+</div>
+
+
+</body>
+</html>
