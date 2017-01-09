@@ -111,15 +111,17 @@ position: absolute;
 
 }
 .road_wrap .line02{
-
+	-webkit-transform:rotate(45deg);
 	transform:rotate(45deg);
 
 }
 .road_wrap .line03{
 
+	-webkit-transform: translate(-0.5rem,0.95rem);
 	transform: translate(-0.5rem,0.95rem);
 }
 .road_wrap .line04{
+	-webkit-transform: rotate(119deg);
     transform: rotate(119deg);
     margin-top: 1.2rem;
     margin-left: -0.5rem;
@@ -127,6 +129,7 @@ position: absolute;
 
 .road_wrap .line05{
 	width: 4rem;
+	-webkit-transform: translate(1.5rem,-1.48rem);
     transform: translate(1.5rem,-1.48rem)
 }
 .road_wrap .line05 i{
