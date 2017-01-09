@@ -83,7 +83,7 @@ function timeStop(rel){
 		$('.plane').removeClass().addClass('plane');
 		
 	}else{
-		// console.log('等:'+cla);
+	
 		return;
 	}
 }
